@@ -1,0 +1,125 @@
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#hero {
+  padding-top: 10px;
+  width: 100%;
+  height: 100vh;
+  background: url("../img/hero-bg.jpg") top center;
+  background-size: cover;
+  overflow: scroll;
+}
+
+
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 992px) {
+  #hero {
+    margin-bottom: 0;
+    height: 100vh;
+  }
+
+  #hero .container {
+    padding-bottom: 63px;
+  }
+
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-height: 600px) {
+  #hero {
+    height: 110vh;
+  }
+}
+
+
+
+/* //////////////// image choose */
+
+  .image-preview-up{
+      object-fit: cover;
+      width: 90px;
+      height: 90px;
+  }
+
+  .choose-image-update{
+    text-align: center;
+    cursor: pointer;
+  }
+
+
+
+
+  #imageInput{
+    display: none;
+  }
+  .image-preview{
+      display: none;
+      object-fit: cover;
+      width: 90px;
+      height: 90px;
+  }
+  .change-image{
+    display: none;
+    text-align: center;
+    cursor: pointer;
+
+  }
+
+
+   #imageInput1{
+    display: none;
+  }
+  .image-preview1{
+      display: none;
+      object-fit: cover;
+      width: 170px;
+      height: 90px;
+  }
+  .change-image1{
+    display: none;
+    text-align: center;
+    cursor: pointer;
+
+  }
+
+
+
+  #imageInput2{
+    display: none;
+  }
+  .image-preview2{
+      display: none;
+      object-fit: cover;
+      width: 170px;
+      height: 90px;
+    
+  }
+  .change-image2{
+    display: none;
+    text-align: center;
+    cursor: pointer;
+
+  }

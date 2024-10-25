@@ -1,0 +1,142 @@
+/* SIDEBAR */
+
+.topnav-navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.sidebarLeft{
+    position: fixed;
+    top: 8vh;
+    left: 0%;
+    width: 16%;
+    max-width: 100%;
+    height: 92vh;
+    padding-right: 0%;
+    background-color: #ffff;
+    z-index: 100;
+}
+
+
+/* FEED */
+.feedadmin{
+    width: 87%;
+    max-width: 100%;
+    height: 92vh;
+    position: fixed;
+    overflow-y: scroll;
+    left: 19%;
+    right: 5%;
+    padding-top: 30px;
+    padding-right: 5%;
+    padding-left: 5%;
+    z-index: -100;
+}
+
+
+
+.feedadmin::-webkit-scrollbar{
+    display: none;
+}
+ 
+
+/* Search  CSS */
+
+ .search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.search__input {
+  font-family: inherit;
+  font-size: inherit;
+  background-color: #f4f2f2;
+  border: none;
+  color: #646464;
+  padding: 0.7rem 1rem;
+  border-radius: 30px;
+  width: 12em;
+  transition: all ease-in-out .5s;
+  margin-right: -2rem;
+}
+
+.search__input:hover, .search__input:focus {
+  box-shadow: 0 0 1em #00000013;
+}
+
+.search__input:focus {
+  outline: none;
+  background-color: #f0eeee;
+}
+
+.search__input::-webkit-input-placeholder {
+  font-weight: 100;
+  color: #ccc;
+}
+
+.search__input:focus + .search__button {
+  background-color: #f0eeee;
+}
+
+.search__button {
+  border: none;
+  background-color: #f4f2f2;
+  margin-top: .1em;
+}
+
+.search__button:hover {
+  cursor: pointer;
+}
+
+.search__icon {
+  height: 1.3em;
+  width: 1.3em;
+  fill: #b4b4b4;
+}
+
+
+/* Responsive CSS */
+
+@media (max-width: 1080px){
+
+ .sidebarLeft{
+        width: 0%;
+        max-width: 0%;
+  }
+
+.feedadmin{
+     width: 100%;
+      max-width: 100%;
+      top: 8vh;
+      left: 0%;
+      padding-right: 5%;
+      padding-left: 5%;
+   }
+
+
+}
+
+@media (max-width: 400px){
+  
+ .sidebarLeft{
+      width: 0%;
+      max-width: 0%;
+      max-width: 0%;
+  }
+   .feedadmin{
+      width: 100%;
+      max-width: 100%;
+      top: 8vh;
+      left: 0%;
+      padding-right: 5%;
+      padding-left: 5%;
+   }
+
+
+}
+   
+

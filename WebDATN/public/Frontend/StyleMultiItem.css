@@ -1,0 +1,266 @@
+/* /////////////////////////  css style dich vu y te ///////////////////////////////*/
+
+.slider-container-ser {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-ser {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slider-item-ser {
+  flex: 0 0 300px;
+  height: 80px;
+  width: 300px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+.slider-item-ser a{
+  width: 100%;
+}
+
+.nav_slide_ser button {
+  margin: 10px;
+  transform: translatey(-50%);
+  width: 25px;
+  height: 25px;
+  border: none;
+  border-radius: 10%;
+  outline: none;
+  cursor: pointer;
+  color: #00BFFF;
+  background: rgba(0, 0, 0, .5);
+}
+.nav_slide_ser {
+  padding-top:5px;
+  top: 20px;
+  width: 100%;
+  height: 25px;
+}
+
+
+.btn_control:hover,
+.btn_control:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: .9;
+}
+
+/* .nav_slide_ser .prev {
+  left: -19px;
+}
+
+.nav_slide_ser .next {
+  right: -19px;
+}
+ */
+
+/* /////////////////////////  css style chuyen khoa ///////////////////////////////*/
+
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slider-item {
+  flex: 0 0 300px;
+  height: auto;
+  width: 280px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.nav_slide button {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 10%;
+  outline: none;
+  cursor: pointer;
+  color: #00BFFF;
+  background: rgba(0, 0, 0, .5);
+}
+.nav_slide {
+  padding: 0;
+  position: relative;
+  top: -200px;
+  width: 100%;
+  height: 50px;
+}
+
+
+.btn_control:hover,
+.btn_control:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: .9;
+}
+
+.nav_slide .prev {
+left: -19px;
+}
+
+.nav_slide .next {
+right: -19px;
+}
+
+
+/* /////////////////////////  css style doctor ///////////////////////////////*/
+
+.slider-container-dt {
+  width: 100%;
+  overflow: hidden;
+  margin-right: 0%;
+  margin-left: 0%;
+}
+
+.slider-dt {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slider-item-dt {
+  flex: 0 0 250px;
+  height: auto;
+  width: 220px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.nav_slide_dt button {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 10%;
+  outline: none;
+  cursor: pointer;
+  color: #00BFFF;
+  background: rgba(0, 0, 0, .5);
+}
+.nav_slide_dt {
+  padding: 0;
+  position: relative;
+  top: -170px;
+  width: 100%;
+  height: 50px;
+}
+
+
+.btn_control:hover,
+.btn_control:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: .9;
+}
+
+.nav_slide_dt .prev {
+left: -19px;
+}
+
+.nav_slide_dt .next {
+right: -19px;
+}
+
+
+
+/* /////////////////////////  css style slide handbook ///////////////////////////////*/
+
+.slider-container-handbook {
+  width: 100%;
+  overflow: hidden;
+  margin-right: 0%;
+  margin-left: 0%;
+}
+
+.slider-handbook {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slider-item-handbook {
+  flex: 0 0 250px;
+  height: auto;
+  width: 220px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.nav_slide_handbook button {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 10%;
+  outline: none;
+  cursor: pointer;
+  color: #00BFFF;
+  background: rgba(0, 0, 0, .5);
+}
+.nav_slide_handbook {
+  padding: 0;
+  position: relative;
+  top: -170px;
+  width: 100%;
+  height: 50px;
+}
+
+
+.btn_control:hover,
+.btn_control:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: .9;
+}
+
+.nav_slide_handbook .prev {
+left: -19px;
+}
+
+.nav_slide_handbook .next {
+right: -19px;
+}
+
+
+.text-container {
+  height: 50px;
+}
+.truncate-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
